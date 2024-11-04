@@ -49,7 +49,7 @@ export default function Entretenimiento() {
         onChangeText={setTitle}
       />
 
-      <Button title="Buscar" onPress={buscador} color={"#FF0364"} />
+      <Button title="Buscar" onPress={buscador} color={"blue"} />
 
       {error ? <Text style={styles.errorText}>{error}</Text> : null}
 
@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: "#BCADB2",
+    backgroundColor: "white",
   },
   title: {
     fontSize: 24,
